@@ -2,9 +2,9 @@ import SwiftUI
 import UIKit
 
 public enum ImageAsset {
-    
+
     nonisolated(unsafe) public static var onError: ((String) -> Void)?
-    
+
     public static var calendar: Asset { Asset(name: "ic_calendar") }
     public static var clock: Asset { Asset(name: "ic_clock") }
     public static var loading: Asset { Asset(name: "ic_loading") }
@@ -13,7 +13,7 @@ public enum ImageAsset {
     public static var star: Asset { Asset(name: "ic_star") }
     public static var imageLoading: Asset { Asset(name: "img_Loading") }
     public static var imagePlaceholder: Asset { Asset(name: "img_placeholder") }
-    
+
 }
 
 // MARK: - Image Asset

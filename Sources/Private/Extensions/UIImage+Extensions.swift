@@ -1,7 +1,7 @@
 import UIKit
 
 extension UIImage {
-    
+
     func tinted(with color: UIColor, isOpaque: Bool = false) -> UIImage? {
         let format = imageRendererFormat
         format.opaque = isOpaque
@@ -10,7 +10,7 @@ extension UIImage {
             withRenderingMode(.alwaysTemplate).draw(at: .zero)
         }
     }
-    
+
     func withInset(_ insets: UIEdgeInsets) -> UIImage? {
       let cgSize = CGSize(
         width: size.width + insets.left * scale + insets.right * scale,
@@ -25,5 +25,5 @@ extension UIImage {
 
       return UIGraphicsGetImageFromCurrentImageContext()?.withRenderingMode(renderingMode)
     }
-    
+
 }
