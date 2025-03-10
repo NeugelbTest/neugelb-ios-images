@@ -11,6 +11,8 @@ public enum ImageAsset {
     public static var search: Asset { Asset(name: "ic_search") }
     public static var ticket: Asset { Asset(name: "ic_ticket") }
     public static var star: Asset { Asset(name: "ic_star") }
+    public static var left: Asset { Asset(name: "ic_left") }
+    public static var close: Asset { Asset(name: "ic_close") }
     public static var imageLoading: Asset { Asset(name: "img_Loading") }
     public static var imagePlaceholder: Asset { Asset(name: "img_placeholder") }
 
