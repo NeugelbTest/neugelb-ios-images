@@ -12,6 +12,8 @@ struct ImageAssetTests {
         #expect(ImageAsset.search.name == "ic_search")
         #expect(ImageAsset.ticket.name == "ic_ticket")
         #expect(ImageAsset.star.name == "ic_star")
+        #expect(ImageAsset.left.name == "ic_left")
+        #expect(ImageAsset.close.name == "ic_close")
         #expect(ImageAsset.imageLoading.name == "img_Loading")
         #expect(ImageAsset.imagePlaceholder.name == "img_placeholder")
     }
