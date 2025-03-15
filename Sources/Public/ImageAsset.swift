@@ -13,7 +13,7 @@ public enum ImageAsset {
     public static var star: Asset { Asset(name: "ic_star") }
     public static var left: Asset { Asset(name: "ic_left") }
     public static var close: Asset { Asset(name: "ic_close") }
-    public static var imageLoading: Asset { Asset(name: "img_Loading") }
+    public static var imageLoading: Asset { Asset(name: "img_loading") }
     public static var imagePlaceholder: Asset { Asset(name: "img_placeholder") }
 
 }
